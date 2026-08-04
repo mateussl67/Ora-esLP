@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "installCommand": "cd \"LP SITE\" && npm install",
+  "buildCommand": "cd \"LP SITE\" && npm run build",
+  "outputDirectory": "LP SITE/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
